@@ -1,0 +1,1007 @@
+--03/12/2020----------------------------------------------------- 
+Lexical Tokens for a.spl 
+--11:30:28.55----------------------------------------------------- 
+Identifier ProgA Token: IDENTIFIER
+Token: COLON
+Token: CODE
+Token: WRITE
+Token: BRA
+Character h Token: CHARCON
+Token: COMMA
+Character e Token: CHARCON
+Token: COMMA
+Character l Token: CHARCON
+Token: COMMA
+Character l Token: CHARCON
+Token: COMMA
+Character o Token: CHARCON
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDP
+Identifier ProgA Token: IDENTIFIER
+Token: STOP
+--03/12/2020----------------------------------------------------- 
+Lexical Tokens for b.spl 
+--11:30:59.14----------------------------------------------------- 
+Identifier ProgB Token: IDENTIFIER
+Token: COLON
+Token: DECLARATIONS
+Identifier a Token: IDENTIFIER
+Token: COMMA
+Identifier b Token: IDENTIFIER
+Token: OF
+Token: TYPE
+Token: INTEGER
+Token: SEMICOLON
+Identifier c Token: IDENTIFIER
+Token: OF
+Token: TYPE
+Token: CHARACTER
+Token: SEMICOLON
+Identifier d Token: IDENTIFIER
+Token: COMMA
+Identifier e Token: IDENTIFIER
+Token: OF
+Token: TYPE
+Token: REAL
+Token: SEMICOLON
+Token: CODE
+Token: READ
+Token: BRA
+Identifier a Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: READ
+Token: BRA
+Identifier b Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: IF
+Identifier a Token: IDENTIFIER
+Token: GREATER_THAN
+Identifier b Token: IDENTIFIER
+Token: THEN
+Token: WRITE
+Token: BRA
+Character A Token: CHARCON
+Token: KET
+Token: ELSE
+Token: WRITE
+Token: BRA
+Character B Token: CHARCON
+Token: KET
+Token: ENDIF
+Token: SEMICOLON
+Token: NEWLINE
+Token: SEMICOLON
+Token: READ
+Token: BRA
+Identifier d Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Identifier d Token: IDENTIFIER
+Token: MULTIPLY
+Float 2.3 Token: FLOAT
+Token: ASSIGN
+Identifier e Token: IDENTIFIER
+Token: SEMICOLON
+Token: WRITE
+Token: BRA
+Identifier e Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: SEMICOLON
+Token: READ
+Token: BRA
+Identifier c Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: WRITE
+Token: BRA
+Identifier c Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDP
+Identifier ProgB Token: IDENTIFIER
+Token: STOP
+--03/12/2020----------------------------------------------------- 
+Lexical Tokens for c.spl 
+--11:31:06.28----------------------------------------------------- 
+Identifier Prog3 Token: IDENTIFIER
+Token: COLON
+Token: DECLARATIONS
+Identifier a Token: IDENTIFIER
+Token: OF
+Token: TYPE
+Token: INTEGER
+Token: SEMICOLON
+Token: CODE
+Token: FOR
+Identifier a Token: IDENTIFIER
+Token: IS
+Number 1 Token: NUMBER
+Token: BY
+Number 1 Token: NUMBER
+Token: TO
+Number 13 Token: NUMBER
+Token: DO
+Token: IF
+Token: NOT
+Identifier a Token: IDENTIFIER
+Token: EQUAL
+Number 7 Token: NUMBER
+Token: THEN
+Token: WRITE
+Token: BRA
+Identifier a Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDIF
+Token: ENDFOR
+Token: SEMICOLON
+Number 0 Token: NUMBER
+Token: ASSIGN
+Identifier a Token: IDENTIFIER
+Token: SEMICOLON
+Token: DO
+Identifier a Token: IDENTIFIER
+Token: PLUS
+Number 1 Token: NUMBER
+Token: ASSIGN
+Identifier a Token: IDENTIFIER
+Token: SEMICOLON
+Token: IF
+Token: NOT
+Identifier a Token: IDENTIFIER
+Token: EQUAL
+Number 6 Token: NUMBER
+Token: AND
+Identifier a Token: IDENTIFIER
+Token: NOT_EQUAL_TO
+Number 8 Token: NUMBER
+Token: THEN
+Token: WRITE
+Token: BRA
+Identifier a Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDIF
+Token: WHILE
+Identifier a Token: IDENTIFIER
+Token: LESS_THAN
+Number 14 Token: NUMBER
+Token: ENDDO
+Token: SEMICOLON
+Number 0 Token: NUMBER
+Token: ASSIGN
+Identifier a Token: IDENTIFIER
+Token: SEMICOLON
+Token: WHILE
+Identifier a Token: IDENTIFIER
+Token: LESS_THAN
+Number 12 Token: NUMBER
+Token: DO
+Token: WRITE
+Token: BRA
+Identifier a Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Identifier a Token: IDENTIFIER
+Token: PLUS
+Number 1 Token: NUMBER
+Token: ASSIGN
+Identifier a Token: IDENTIFIER
+Token: ENDWHILE
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDP
+Identifier Prog3 Token: IDENTIFIER
+Token: STOP
+--03/12/2020----------------------------------------------------- 
+Lexical Tokens for d.spl 
+--11:31:14.36----------------------------------------------------- 
+Identifier Prog4D Token: IDENTIFIER
+Token: COLON
+Token: DECLARATIONS
+Identifier r1 Token: IDENTIFIER
+Token: COMMA
+Identifier r2 Token: IDENTIFIER
+Token: COMMA
+Identifier r3 Token: IDENTIFIER
+Token: OF
+Token: TYPE
+Token: REAL
+Token: SEMICOLON
+Token: CODE
+Token: SUBTRACT
+Float 2.4 Token: FLOAT
+Token: ASSIGN
+Identifier r1 Token: IDENTIFIER
+Token: SEMICOLON
+Token: SUBTRACT
+Float 34.989 Token: FLOAT
+Token: ASSIGN
+Identifier r2 Token: IDENTIFIER
+Token: SEMICOLON
+Identifier r1 Token: IDENTIFIER
+Token: MULTIPLY
+Identifier r2 Token: IDENTIFIER
+Token: DIVIDE
+Float 7.4 Token: FLOAT
+Token: ASSIGN
+Identifier r3 Token: IDENTIFIER
+Token: SEMICOLON
+Token: WRITE
+Token: BRA
+Identifier r3 Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: SEMICOLON
+Token: READ
+Token: BRA
+Identifier r1 Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Identifier r1 Token: IDENTIFIER
+Token: PLUS
+Identifier r3 Token: IDENTIFIER
+Token: ASSIGN
+Identifier r3 Token: IDENTIFIER
+Token: SEMICOLON
+Token: WRITE
+Token: BRA
+Identifier r3 Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDP
+Identifier Prog4D Token: IDENTIFIER
+Token: STOP
+--03/12/2020----------------------------------------------------- 
+Lexical Tokens for e.spl 
+--11:31:21.37----------------------------------------------------- 
+Identifier ProgV Token: IDENTIFIER
+Token: COLON
+Token: DECLARATIONS
+Identifier integer Token: IDENTIFIER
+Token: COMMA
+Identifier i Token: IDENTIFIER
+Token: OF
+Token: TYPE
+Token: INTEGER
+Token: SEMICOLON
+Token: CODE
+Token: READ
+Token: BRA
+Identifier integer Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: IF
+Identifier integer Token: IDENTIFIER
+Token: LESS_THAN_OR_EQUAL_TO
+Number 5 Token: NUMBER
+Token: OR
+Identifier integer Token: IDENTIFIER
+Token: GREATER_THAN_OR_EQUAL_TO
+Number 12 Token: NUMBER
+Token: THEN
+Token: WRITE
+Token: BRA
+Identifier integer Token: IDENTIFIER
+Token: KET
+Token: ENDIF
+Token: SEMICOLON
+Token: WRITE
+Token: BRA
+Token: BRA
+Number 36 Token: NUMBER
+Token: SUBTRACT
+Number 1 Token: NUMBER
+Token: KET
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: SEMICOLON
+Token: FOR
+Identifier integer Token: IDENTIFIER
+Token: IS
+Token: SUBTRACT
+Number 1 Token: NUMBER
+Token: BY
+Token: SUBTRACT
+Number 1 Token: NUMBER
+Token: TO
+Token: SUBTRACT
+Number 5 Token: NUMBER
+Token: DO
+Token: WRITE
+Token: BRA
+Identifier integer Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDFOR
+Token: SEMICOLON
+Token: SUBTRACT
+Number 1 Token: NUMBER
+Token: ASSIGN
+Identifier i Token: IDENTIFIER
+Token: SEMICOLON
+Token: FOR
+Identifier integer Token: IDENTIFIER
+Token: IS
+Identifier i Token: IDENTIFIER
+Token: MULTIPLY
+Identifier i Token: IDENTIFIER
+Token: MULTIPLY
+Identifier i Token: IDENTIFIER
+Token: BY
+Identifier i Token: IDENTIFIER
+Token: MULTIPLY
+Identifier i Token: IDENTIFIER
+Token: MULTIPLY
+Identifier i Token: IDENTIFIER
+Token: MULTIPLY
+Identifier i Token: IDENTIFIER
+Token: MULTIPLY
+Identifier i Token: IDENTIFIER
+Token: TO
+Identifier i Token: IDENTIFIER
+Token: MULTIPLY
+Identifier i Token: IDENTIFIER
+Token: MULTIPLY
+Token: BRA
+Identifier i Token: IDENTIFIER
+Token: PLUS
+Identifier i Token: IDENTIFIER
+Token: PLUS
+Identifier i Token: IDENTIFIER
+Token: PLUS
+Identifier i Token: IDENTIFIER
+Token: PLUS
+Identifier i Token: IDENTIFIER
+Token: KET
+Token: DO
+Token: WRITE
+Token: BRA
+Identifier integer Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDFOR
+Token: ENDP
+Identifier ProgV Token: IDENTIFIER
+Token: STOP
+--03/12/2020----------------------------------------------------- 
+Parse debug output for a.spl 
+--11:31:35.44----------------------------------------------------- 
+#include <stdio.h>
+
+int main(void) 
+{
+
+printf("h""e""l""l""o");
+printf("\n");
+
+
+}
+--03/12/2020----------------------------------------------------- 
+Parse debug output for b.spl 
+--11:31:44.53----------------------------------------------------- 
+#include <stdio.h>
+
+int main(void) 
+{
+
+int a,b;
+char c;
+float d,e;
+
+scanf(" %d",&a);
+
+scanf(" %d",&b);
+if (a >b )
+{
+printf("A");
+}
+else
+{
+printf("B");
+}
+printf("\n");
+
+scanf(" %f",&d);
+e = d *2.3 ;
+
+printf("%.2f",e );
+printf("\n");
+
+scanf(" %c",&c);
+
+printf("%c",c );
+printf("\n");
+
+}
+--03/12/2020----------------------------------------------------- 
+Parse debug output for c.spl 
+--11:31:53.06----------------------------------------------------- 
+#include <stdio.h>
+
+int main(void) 
+{
+
+int a;
+register int _by, _sign;for (a = 1; _by = 1, _sign=(_by == 0 ? 1 : _by/abs(_by)), (a-(13))*_sign <= 0 ;a+= _by)
+{if (!(a ==7))
+{
+printf("%d",a );
+printf("\n");
+}
+
+}
+a = 0;
+do
+{a = a +1;
+if (!(a ==6 && a !=8))
+{
+printf("%d",a );
+printf("\n");
+}
+} while(a <14);
+a = 0;
+while (a <12) 
+{
+
+printf("%d",a );
+a = a +1;
+
+}
+printf("\n");
+
+}
+--03/12/2020----------------------------------------------------- 
+Parse debug output for d.spl 
+--11:32:02.65----------------------------------------------------- 
+#include <stdio.h>
+
+int main(void) 
+{
+
+float r1,r2,r3;
+r1 = -2.4 ;
+r2 = -34.989 ;
+r3 = r1 *r2 /7.4 ;
+
+printf("%.2f",r3 );
+printf("\n");
+
+scanf(" %f",&r1);
+r3 = r1 +r3 ;
+
+printf("%.2f",r3 );
+printf("\n");
+
+}
+--03/12/2020----------------------------------------------------- 
+Parse debug output for e.spl 
+--11:32:12.51----------------------------------------------------- 
+#include <stdio.h>
+
+int main(void) 
+{
+
+int integer,i;
+
+scanf(" %d",&integer);
+if (integer <=5 || integer >=12)
+{
+printf("%d",integer );
+}
+
+printf("%d",36-1);
+printf("\n");
+register int _by, _sign;for (integer = -1 ; _by = -1 , _sign=(_by == 0 ? 1 : _by/abs(_by)), (integer-(-5 ))*_sign <= 0 ;integer+= _by)
+{
+printf("%d",integer );
+printf("\n");
+
+}
+i = -1 ;
+for (integer = i *i *i ; _by = i *i *i *i *i , _sign=(_by == 0 ? 1 : _by/abs(_by)), (integer-(i *i *(i +i +i +i +i )))*_sign <= 0 ;integer+= _by)
+{
+printf("%d",integer );
+printf("\n");
+
+}
+
+}
+--03/12/2020----------------------------------------------------- 
+Parse Tree output for a.spl 
+--11:32:31.03----------------------------------------------------- 
+Identifier: ProgA PROGRAM
+   BLOCK
+      STATEMENT_LIST
+         STATEMENT
+            WRITE_STATEMENT
+               OUTPUT_LIST
+                  OUTPUT_LIST
+                     OUTPUT_LIST
+                        OUTPUT_LIST
+                           OUTPUT_LIST
+                              Con_VALUE
+                                 Character: h CHARACTER_CONSTANT
+                           Con_VALUE
+                              Character: e CHARACTER_CONSTANT
+                        Con_VALUE
+                           Character: l CHARACTER_CONSTANT
+                     Con_VALUE
+                        Character: l CHARACTER_CONSTANT
+                  Con_VALUE
+                     Character: o CHARACTER_CONSTANT
+         STATEMENT_LIST
+            STATEMENT
+               NEWLINE_STATEMENT
+--03/12/2020----------------------------------------------------- 
+Parse Tree output for b.spl 
+--11:32:40.32----------------------------------------------------- 
+Identifier: ProgB PROGRAM
+   BLOCK
+      DECLARATION_BLOCK
+         DECLARATION
+            Identifier: a IDENTIFIER_LIST
+               Identifier: b IDENTIFIER_LIST
+            Integer
+TYPE_Node
+         DECLARATION_BLOCK
+            DECLARATION
+               Identifier: c IDENTIFIER_LIST
+               Character
+TYPE_Node
+            DECLARATION_BLOCK
+               DECLARATION
+                  Identifier: d IDENTIFIER_LIST
+                     Identifier: e IDENTIFIER_LIST
+                  Real
+TYPE_Node
+      STATEMENT_LIST
+         STATEMENT
+            Read: a READ_STATEMENT
+         STATEMENT_LIST
+            STATEMENT
+               Read: b READ_STATEMENT
+            STATEMENT_LIST
+               STATEMENT
+                  IF_STATEMENT
+                     CONDITIONAL
+                        EXPRESSION
+                           TERM
+                              Identifier: a IDENTIFIER_VALUE
+                        COMPARATOR
+                        EXPRESSION
+                           TERM
+                              Identifier: b IDENTIFIER_VALUE
+                     STATEMENT_LIST
+                        STATEMENT
+                           WRITE_STATEMENT
+                              OUTPUT_LIST
+                                 Con_VALUE
+                                    Character: A CHARACTER_CONSTANT
+                     STATEMENT_LIST
+                        STATEMENT
+                           WRITE_STATEMENT
+                              OUTPUT_LIST
+                                 Con_VALUE
+                                    Character: B CHARACTER_CONSTANT
+               STATEMENT_LIST
+                  STATEMENT
+                     NEWLINE_STATEMENT
+                  STATEMENT_LIST
+                     STATEMENT
+                        Read: d READ_STATEMENT
+                     STATEMENT_LIST
+                        STATEMENT
+                           nodeIdentifier: e ASSIGNMENT_STATEMENT
+                              EXPRESSION
+                                 TERM
+                                    Identifier: d IDENTIFIER_VALUE
+                                    TERM
+                                       Con_VALUE
+                                          CONSTANT
+                                             Float: 2.3 FLOAT_CONSTANT
+                        STATEMENT_LIST
+                           STATEMENT
+                              WRITE_STATEMENT
+                                 OUTPUT_LIST
+                                    Identifier: e IDENTIFIER_VALUE
+                           STATEMENT_LIST
+                              STATEMENT
+                                 NEWLINE_STATEMENT
+                              STATEMENT_LIST
+                                 STATEMENT
+                                    Read: c READ_STATEMENT
+                                 STATEMENT_LIST
+                                    STATEMENT
+                                       WRITE_STATEMENT
+                                          OUTPUT_LIST
+                                             Identifier: c IDENTIFIER_VALUE
+                                    STATEMENT_LIST
+                                       STATEMENT
+                                          NEWLINE_STATEMENT
+--03/12/2020----------------------------------------------------- 
+Parse Tree output for c.spl 
+--11:32:51.76----------------------------------------------------- 
+Identifier: Prog3 PROGRAM
+   BLOCK
+      DECLARATION_BLOCK
+         DECLARATION
+            Identifier: a IDENTIFIER_LIST
+            Integer
+TYPE_Node
+      STATEMENT_LIST
+         STATEMENT
+            FOR_STATEMENT
+               EXPRESSION
+                  TERM
+                     Con_VALUE
+                        CONSTANT
+                           Number: 1 NUMBER_CONSTANT
+               EXPRESSION
+                  TERM
+                     Con_VALUE
+                        CONSTANT
+                           Number: 1 NUMBER_CONSTANT
+               FOR_STATEMENT
+                  EXPRESSION
+                     TERM
+                        Con_VALUE
+                           CONSTANT
+                              Number: 13 NUMBER_CONSTANT
+                  STATEMENT_LIST
+                     STATEMENT
+                        IF_STATEMENT
+                           NOT_CONDITIONAL
+                              CONDITIONAL
+                                 EXPRESSION
+                                    TERM
+                                       Identifier: a IDENTIFIER_VALUE
+                                 COMPARATOR
+                                 EXPRESSION
+                                    TERM
+                                       Con_VALUE
+                                          CONSTANT
+                                             Number: 7 NUMBER_CONSTANT
+                           STATEMENT_LIST
+                              STATEMENT
+                                 WRITE_STATEMENT
+                                    OUTPUT_LIST
+                                       Identifier: a IDENTIFIER_VALUE
+                              STATEMENT_LIST
+                                 STATEMENT
+                                    NEWLINE_STATEMENT
+         STATEMENT_LIST
+            STATEMENT
+               nodeIdentifier: a ASSIGNMENT_STATEMENT
+                  EXPRESSION
+                     TERM
+                        Con_VALUE
+                           CONSTANT
+                              Number: 0 NUMBER_CONSTANT
+            STATEMENT_LIST
+               STATEMENT
+                  DO_STATEMENT
+                     STATEMENT_LIST
+                        STATEMENT
+                           nodeIdentifier: a ASSIGNMENT_STATEMENT
+                              EXPRESSION
+                                 TERM
+                                    Identifier: a IDENTIFIER_VALUE
+                                 EXPRESSION
+                                    TERM
+                                       Con_VALUE
+                                          CONSTANT
+                                             Number: 1 NUMBER_CONSTANT
+                        STATEMENT_LIST
+                           STATEMENT
+                              IF_STATEMENT
+                                 NOT_CONDITIONAL
+                                    AND_CONDITIONAL
+                                       EXPRESSION
+                                          TERM
+                                             Identifier: a IDENTIFIER_VALUE
+                                       COMPARATOR
+                                       AND_CONDITIONAL
+                                          EXPRESSION
+                                             TERM
+                                                Con_VALUE
+                                                   CONSTANT
+                                                      Number: 6 NUMBER_CONSTANT
+                                          CONDITIONAL
+                                             EXPRESSION
+                                                TERM
+                                                   Identifier: a IDENTIFIER_VALUE
+                                             COMPARATOR
+                                             EXPRESSION
+                                                TERM
+                                                   Con_VALUE
+                                                      CONSTANT
+                                                         Number: 8 NUMBER_CONSTANT
+                                 STATEMENT_LIST
+                                    STATEMENT
+                                       WRITE_STATEMENT
+                                          OUTPUT_LIST
+                                             Identifier: a IDENTIFIER_VALUE
+                                    STATEMENT_LIST
+                                       STATEMENT
+                                          NEWLINE_STATEMENT
+                     CONDITIONAL
+                        EXPRESSION
+                           TERM
+                              Identifier: a IDENTIFIER_VALUE
+                        COMPARATOR
+                        EXPRESSION
+                           TERM
+                              Con_VALUE
+                                 CONSTANT
+                                    Number: 14 NUMBER_CONSTANT
+               STATEMENT_LIST
+                  STATEMENT
+                     nodeIdentifier: a ASSIGNMENT_STATEMENT
+                        EXPRESSION
+                           TERM
+                              Con_VALUE
+                                 CONSTANT
+                                    Number: 0 NUMBER_CONSTANT
+                  STATEMENT_LIST
+                     STATEMENT
+                        WHILE_STATEMENT
+                           CONDITIONAL
+                              EXPRESSION
+                                 TERM
+                                    Identifier: a IDENTIFIER_VALUE
+                              COMPARATOR
+                              EXPRESSION
+                                 TERM
+                                    Con_VALUE
+                                       CONSTANT
+                                          Number: 12 NUMBER_CONSTANT
+                           STATEMENT_LIST
+                              STATEMENT
+                                 WRITE_STATEMENT
+                                    OUTPUT_LIST
+                                       Identifier: a IDENTIFIER_VALUE
+                              STATEMENT_LIST
+                                 STATEMENT
+                                    nodeIdentifier: a ASSIGNMENT_STATEMENT
+                                       EXPRESSION
+                                          TERM
+                                             Identifier: a IDENTIFIER_VALUE
+                                          EXPRESSION
+                                             TERM
+                                                Con_VALUE
+                                                   CONSTANT
+                                                      Number: 1 NUMBER_CONSTANT
+                     STATEMENT_LIST
+                        STATEMENT
+                           NEWLINE_STATEMENT
+--03/12/2020----------------------------------------------------- 
+Parse Tree output for d.spl 
+--11:32:58.39----------------------------------------------------- 
+Identifier: Prog4D PROGRAM
+   BLOCK
+      DECLARATION_BLOCK
+         DECLARATION
+            Identifier: r1 IDENTIFIER_LIST
+               Identifier: r2 IDENTIFIER_LIST
+                  Identifier: r3 IDENTIFIER_LIST
+            Real
+TYPE_Node
+      STATEMENT_LIST
+         STATEMENT
+            nodeIdentifier: r1 ASSIGNMENT_STATEMENT
+               EXPRESSION
+                  TERM
+                     Con_VALUE
+                        CONSTANT
+                           Minus Float: 2.4 MINUS_FLOAT_CONSTANT
+         STATEMENT_LIST
+            STATEMENT
+               nodeIdentifier: r2 ASSIGNMENT_STATEMENT
+                  EXPRESSION
+                     TERM
+                        Con_VALUE
+                           CONSTANT
+                              Minus Float: 34.989 MINUS_FLOAT_CONSTANT
+            STATEMENT_LIST
+               STATEMENT
+                  nodeIdentifier: r3 ASSIGNMENT_STATEMENT
+                     EXPRESSION
+                        TERM
+                           Identifier: r1 IDENTIFIER_VALUE
+                           TERM
+                              Identifier: r2 IDENTIFIER_VALUE
+                              TERM
+                                 Con_VALUE
+                                    CONSTANT
+                                       Float: 7.4 FLOAT_CONSTANT
+               STATEMENT_LIST
+                  STATEMENT
+                     WRITE_STATEMENT
+                        OUTPUT_LIST
+                           Identifier: r3 IDENTIFIER_VALUE
+                  STATEMENT_LIST
+                     STATEMENT
+                        NEWLINE_STATEMENT
+                     STATEMENT_LIST
+                        STATEMENT
+                           Read: r1 READ_STATEMENT
+                        STATEMENT_LIST
+                           STATEMENT
+                              nodeIdentifier: r3 ASSIGNMENT_STATEMENT
+                                 EXPRESSION
+                                    TERM
+                                       Identifier: r1 IDENTIFIER_VALUE
+                                    EXPRESSION
+                                       TERM
+                                          Identifier: r3 IDENTIFIER_VALUE
+                           STATEMENT_LIST
+                              STATEMENT
+                                 WRITE_STATEMENT
+                                    OUTPUT_LIST
+                                       Identifier: r3 IDENTIFIER_VALUE
+                              STATEMENT_LIST
+                                 STATEMENT
+                                    NEWLINE_STATEMENT
+--03/12/2020----------------------------------------------------- 
+Parse Tree output for e.spl 
+--11:33:07.76----------------------------------------------------- 
+Identifier: ProgV PROGRAM
+   BLOCK
+      DECLARATION_BLOCK
+         DECLARATION
+            Identifier: integer IDENTIFIER_LIST
+               Identifier: i IDENTIFIER_LIST
+            Integer
+TYPE_Node
+      STATEMENT_LIST
+         STATEMENT
+            Read: integer READ_STATEMENT
+         STATEMENT_LIST
+            STATEMENT
+               IF_STATEMENT
+                  OR_CONDITIONAL
+                     EXPRESSION
+                        TERM
+                           Identifier: integer IDENTIFIER_VALUE
+                     COMPARATOR
+                     OR_CONDITIONAL
+                        EXPRESSION
+                           TERM
+                              Con_VALUE
+                                 CONSTANT
+                                    Number: 5 NUMBER_CONSTANT
+                        CONDITIONAL
+                           EXPRESSION
+                              TERM
+                                 Identifier: integer IDENTIFIER_VALUE
+                           COMPARATOR
+                           EXPRESSION
+                              TERM
+                                 Con_VALUE
+                                    CONSTANT
+                                       Number: 12 NUMBER_CONSTANT
+                  STATEMENT_LIST
+                     STATEMENT
+                        WRITE_STATEMENT
+                           OUTPUT_LIST
+                              Identifier: integer IDENTIFIER_VALUE
+            STATEMENT_LIST
+               STATEMENT
+                  WRITE_STATEMENT
+                     OUTPUT_LIST
+                        Exp_VALUE
+                           EXPRESSION
+                              TERM
+                                 Con_VALUE
+                                    CONSTANT
+                                       Number: 36 NUMBER_CONSTANT
+                              EXPRESSION
+                                 TERM
+                                    Con_VALUE
+                                       CONSTANT
+                                          Number: 1 NUMBER_CONSTANT
+               STATEMENT_LIST
+                  STATEMENT
+                     NEWLINE_STATEMENT
+                  STATEMENT_LIST
+                     STATEMENT
+                        FOR_STATEMENT
+                           EXPRESSION
+                              TERM
+                                 Con_VALUE
+                                    CONSTANT
+                                       Minus Number: 1 MINUS_NUMBER_CONSTANT
+                           EXPRESSION
+                              TERM
+                                 Con_VALUE
+                                    CONSTANT
+                                       Minus Number: 1 MINUS_NUMBER_CONSTANT
+                           FOR_STATEMENT
+                              EXPRESSION
+                                 TERM
+                                    Con_VALUE
+                                       CONSTANT
+                                          Minus Number: 5 MINUS_NUMBER_CONSTANT
+                              STATEMENT_LIST
+                                 STATEMENT
+                                    WRITE_STATEMENT
+                                       OUTPUT_LIST
+                                          Identifier: integer IDENTIFIER_VALUE
+                                 STATEMENT_LIST
+                                    STATEMENT
+                                       NEWLINE_STATEMENT
+                     STATEMENT_LIST
+                        STATEMENT
+                           nodeIdentifier: i ASSIGNMENT_STATEMENT
+                              EXPRESSION
+                                 TERM
+                                    Con_VALUE
+                                       CONSTANT
+                                          Minus Number: 1 MINUS_NUMBER_CONSTANT
+                        STATEMENT_LIST
+                           STATEMENT
+                              FOR_STATEMENT
+                                 EXPRESSION
+                                    TERM
+                                       Identifier: i IDENTIFIER_VALUE
+                                       TERM
+                                          Identifier: i IDENTIFIER_VALUE
+                                          TERM
+                                             Identifier: i IDENTIFIER_VALUE
+                                 EXPRESSION
+                                    TERM
+                                       Identifier: i IDENTIFIER_VALUE
+                                       TERM
+                                          Identifier: i IDENTIFIER_VALUE
+                                          TERM
+                                             Identifier: i IDENTIFIER_VALUE
+                                             TERM
+                                                Identifier: i IDENTIFIER_VALUE
+                                                TERM
+                                                   Identifier: i IDENTIFIER_VALUE
+                                 FOR_STATEMENT
+                                    EXPRESSION
+                                       TERM
+                                          Identifier: i IDENTIFIER_VALUE
+                                          TERM
+                                             Identifier: i IDENTIFIER_VALUE
+                                             TERM
+                                                Exp_VALUE
+                                                   EXPRESSION
+                                                      TERM
+                                                         Identifier: i IDENTIFIER_VALUE
+                                                      EXPRESSION
+                                                         TERM
+                                                            Identifier: i IDENTIFIER_VALUE
+                                                         EXPRESSION
+                                                            TERM
+                                                               Identifier: i IDENTIFIER_VALUE
+                                                            EXPRESSION
+                                                               TERM
+                                                                  Identifier: i IDENTIFIER_VALUE
+                                                               EXPRESSION
+                                                                  TERM
+                                                                     Identifier: i IDENTIFIER_VALUE
+                                    STATEMENT_LIST
+                                       STATEMENT
+                                          WRITE_STATEMENT
+                                             OUTPUT_LIST
+                                                Identifier: integer IDENTIFIER_VALUE
+                                       STATEMENT_LIST
+                                          STATEMENT
+                                             NEWLINE_STATEMENT
